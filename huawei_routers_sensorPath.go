@@ -2,10 +2,10 @@ package huawei_routers_sensorPath
 import(
       "fmt"
       "reflect"
-      "time"
+    //  "time"
       "strings"
       "unicode"      
-      "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-telemetry"
+    //  "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-telemetry"
       "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-bfd"
       "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-bgp"
       "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-devm"
@@ -20,7 +20,7 @@ import(
       "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-telemEmdi"
       "github.com/DamRCorba/huawei_routers_sensorPath/sensors/huaweiV8R10-trafficmng"
       "github.com/golang/protobuf/proto"
-      "github.com/influxdata/telegraf/metric"
+   //   "github.com/influxdata/telegraf/metric"
   )
 /* Returns the protoMessage of the sensor path.
   Huawei have only a few sensors paths for metrics.
