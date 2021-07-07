@@ -510,15 +510,15 @@ func (m *TelemetryThreshold) GetThresholdOpType() TelemetryThreshold_ThresholdOp
 }
 
 func init() {
-	proto.RegisterEnum("huaweiV8R10_telemetry.Telemetry_Encoding", Telemetry_Encoding_name, Telemetry_Encoding_value)
-	proto.RegisterEnum("huaweiV8R10_telemetry.TelemetrySelfDefinedEvent_ThresholdRelation", TelemetrySelfDefinedEvent_ThresholdRelation_name, TelemetrySelfDefinedEvent_ThresholdRelation_value)
-	proto.RegisterEnum("huaweiV8R10_telemetry.TelemetryThreshold_ThresholdOpType", TelemetryThreshold_ThresholdOpType_name, TelemetryThreshold_ThresholdOpType_value)
-	proto.RegisterType((*Telemetry)(nil), "huaweiV8R10_telemetry.Telemetry")
-	proto.RegisterType((*TelemetryGPBTable)(nil), "huaweiV8R10_telemetry.TelemetryGPBTable")
-	proto.RegisterType((*TelemetryRowGPB)(nil), "huaweiV8R10_telemetry.TelemetryRowGPB")
-	proto.RegisterType((*TelemetrySelfDefinedEvent)(nil), "huaweiV8R10_telemetry.TelemetrySelfDefinedEvent")
-	proto.RegisterType((*TelemetrySelfDefineThresTable)(nil), "huaweiV8R10_telemetry.TelemetrySelfDefineThresTable")
-	proto.RegisterType((*TelemetryThreshold)(nil), "huaweiV8R10_telemetry.TelemetryThreshold")
+	proto.RegisterEnum("telemetry.Telemetry_Encoding", Telemetry_Encoding_name, Telemetry_Encoding_value)
+	proto.RegisterEnum("telemetry.TelemetrySelfDefinedEvent_ThresholdRelation", TelemetrySelfDefinedEvent_ThresholdRelation_name, TelemetrySelfDefinedEvent_ThresholdRelation_value)
+	proto.RegisterEnum("telemetry.TelemetryThreshold_ThresholdOpType", TelemetryThreshold_ThresholdOpType_name, TelemetryThreshold_ThresholdOpType_value)
+	proto.RegisterType((*Telemetry)(nil), "telemetry.Telemetry")
+	proto.RegisterType((*TelemetryGPBTable)(nil), "telemetry.TelemetryGPBTable")
+	proto.RegisterType((*TelemetryRowGPB)(nil), "telemetry.TelemetryRowGPB")
+	proto.RegisterType((*TelemetrySelfDefinedEvent)(nil), "telemetry.TelemetrySelfDefinedEvent")
+	proto.RegisterType((*TelemetrySelfDefineThresTable)(nil), "telemetry.TelemetrySelfDefineThresTable")
+	proto.RegisterType((*TelemetryThreshold)(nil), "telemetry.TelemetryThreshold")
 }
 
 func init() { proto.RegisterFile("huawei-telemetry.proto", fileDescriptor_4f1dbed6c6cbe291) }
